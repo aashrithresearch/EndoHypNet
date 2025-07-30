@@ -13,6 +13,7 @@ class AlbumentationsTransform(Transform):
         return PILImage.create(aug_img)
 
 def get_albumentations():
+    import albumentations as A
     return A.Compose([
         A.RandomResizedCrop(size=(224, 224), scale=(0.6, 1.0), p=1.0),
         A.HorizontalFlip(p=0.5),
