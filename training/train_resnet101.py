@@ -9,7 +9,6 @@ def train_model(dls, model_name='resnet101', pretrained=True):
         Precision(average='macro'),
         Recall(average='macro'),
         F1Score(average='macro'),
-        RocAucBinary()
     ]
 
     learn = vision_learner(
