@@ -6,7 +6,9 @@ Built using `Fastai`, `Timm`, and `albumentations`, the pipeline also supports e
 This project uses the dataset from:
 
 **Zhang et al., 2018.**  
+
 **A histopathological image dataset for endometrial disease diagnosis.**  
+
 Available on [Figshare](https://figshare.com/articles/dataset/A_histopathological_image_dataset_for_endometrial_disease_diagnosis/7306361)
 Includes histopathological data of the following: `Normal Endometrium`, `Endometrial Hyperplasia`, `Endometroid Adenocarcinoma`, `Endometrial Polyp`
 
