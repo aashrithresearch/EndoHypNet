@@ -1,0 +1,7 @@
+.pkl filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+<<<<<<< HEAD
+.JPG filter=lfs diff=lfs merge=lfs -text
+=======
+>>>>>>> 2ef9637 (Track ResNet101 via Git LFS)
+data/resnet101.pkl filter=lfs diff=lfs merge=lfs -text
