@@ -3,7 +3,7 @@
 from fastai.vision.all import *
 import timm
 
-def train_model(dls, model_name='resnet101', pretrained=True):
+def train_model(dls, model_name='resnet50', pretrained=True):
     metrics = [
         accuracy,
         Precision(average='macro'),
