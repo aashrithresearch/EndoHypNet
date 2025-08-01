@@ -35,7 +35,7 @@ cd EndoHypNet
 
 ### 2. Install dependencies
 ```bash
-pip install -r EndoHypNet/requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 3. Prepare dataset
@@ -64,4 +64,5 @@ figshare. Dataset. https://doi.org/10.6084/m9.figshare.7306361.v2
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details. 
+
 
