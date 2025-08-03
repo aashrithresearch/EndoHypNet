@@ -1,5 +1,5 @@
 # EndoHypNet: Histopathology-Aware Classifier for Early Endometrial Hyperplasia Diagnosis using Deep Learning
-This repository provides a full pipeline for training deep learning models (InceptionV3, ResNet50, MobileNetV5) on histopathological images to classify endometrial tissue as **Normal Endometrium** or **Endometrial Hyperplasia**
+This repository provides a full pipeline for training deep learning models (InceptionV3, ResNet50, MobileNetV5) on histopathological images to classify endometrial tissue as **Normal Endometrium** or **Endometrial Hyperplasia**. An unbalanced version of this dataset belongs in the `data/` folder, including the classes **Normal Endometrium** and **Endometrial Hyperplasia**
 Built using `Fastai`, `Timm`, and `albumentations`, the pipeline also supports explainability using SHAP and Integrated Gradients
 
 ## Dataset
@@ -64,6 +64,7 @@ figshare. Dataset. https://doi.org/10.6084/m9.figshare.7306361.v2
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details. 
+
 
 
 
