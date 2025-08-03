@@ -46,12 +46,12 @@ Once you have cloned the repo, run the colab-ready notebooks in the `notebooks/`
 
 You can run inferencing on a specific histopathological image using the inference.py:
 ```bash
-python inference.py --image path/to/image.JPG --model models/resnet50.pkl
+python scripts.inference.py --image path/to/image.JPG --model models/resnet50.pkl
 ```
 
 You can also run explainability (SHAP and Integrated Gradients) visualizations with explain.py:
 ```bash
-python explain.py --image path/to/image.JPG --model models/inceptionv3.pkl
+python scripts.explain.py --image path/to/image.JPG --model models/inceptionv3.pkl
 ```
 
 ## Metrics
@@ -64,5 +64,6 @@ figshare. Dataset. https://doi.org/10.6084/m9.figshare.7306361.v2
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details. 
+
 
 
