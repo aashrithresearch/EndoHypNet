@@ -47,11 +47,6 @@ Use the dataset that belongs in the `data/` directory
 ## How to use
 Once you have cloned the repo, run the colab-ready notebooks in the `notebooks/` directory. This notebook will: balance the dataset to avoid class imbalances, apply heavy albumentation data augmentations to increase model efficiency, fine-tune inception_v3/resnet50/mobilenet_v5 model on the dataset, and export the model as a .pkl file
 
-You can run inferencing on a specific histopathological image using the inference.py:
-```bash
-python scripts.inference.py --image path/to/image.JPG --model models/resnet50.pkl
-```
-
 You can also run explainability (SHAP and Integrated Gradients) visualizations with explain.py:
 ```bash
 python scripts.explain.py --image path/to/image.JPG --model models/inceptionv3.pkl
@@ -67,6 +62,7 @@ figshare. Dataset. https://doi.org/10.6084/m9.figshare.7306361.v2
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details. 
+
 
 
 
